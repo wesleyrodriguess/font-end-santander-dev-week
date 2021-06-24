@@ -12,6 +12,10 @@
     justify-content: space-between;
 }
 
+.negative-variation-border {
+    border-left-color: var(--negative-variation-color);
+}
+
 .stock-info-container {
     width: 100%;
     display: flex;
@@ -55,4 +59,8 @@
     align-self: flex-end;
     margin-top: 0.25rem;
     font-size: 0.875rem;
+}
+
+.negative-variation .variation {
+    background-color: var(--negative-variation-color);
 }
